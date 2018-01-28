@@ -1,0 +1,5 @@
+{adam: true, batchSize: 64, checkpoint_folder: ./checkpoints, cuda: true, data_dir: ./Train,
+  epoch_save: 10, flist: ./filelists/train_filelist.txt, gpu_id: '0', gradient_clip: 0.01,
+  init_model: '', lr: 0.001, lr_decay: 0.7, lr_decay_epoch: 10, manualSeed: null,
+  max_epochs: 20, model: VA_Linear, momentum: 0.9, ngpu: 1, prefix: VA_Linear, print_freq: 15,
+  weight_decay: 0.0001, workers: 4}

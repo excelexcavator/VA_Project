@@ -1,0 +1,4 @@
+{audio_flist: ./filelists/Audio_Name_List.txt, batchSize: 30, checkpoint_folder: ./checkpoints,
+  cuda: true, data_dir: ./Train, gpu_id: '0', init_model: ./checkpoints/VA_Linear_state_epoch20.pth,
+  model: VA_Linear, ngpu: 1, topk: 5, video_flist: ./filelists/Video_Name_List.txt,
+  workers: 4}
